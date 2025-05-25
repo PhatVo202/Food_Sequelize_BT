@@ -13,3 +13,5 @@ try {
 }
 
 export default sequelize;
+
+//npx sequelize-auto -h localhost -d db_demo -u root -x 1234 -p 3307  --dialect mysql -o ./models -l esm -a ./addisional.json
